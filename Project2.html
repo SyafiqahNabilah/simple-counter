@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	<script type="text/javascript" src="project2.js"></script>
+</head>
+<body class="bg-body">
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<div class="card bg-custom border-0">
+					<div class="card-body text-center">
+						<div class="title">
+							<h5>Counter Card</h5>
+							<p id="display" value="0"></p>
+							<form>
+								<input type="button" value="Add count" class="btn btn-light mb-5" onclick="counterAdd()" />
+								<input type="button" value="Minus count" class="btn btn-light mb-5" onclick="counterMinus()" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+
+	</div>
+</body>
+</html>
